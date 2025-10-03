@@ -1,15 +1,3 @@
-# Titanic Survival Analysis
-
-![Titanic](https://upload.wikimedia.org/wikipedia/commons/f/fd/RMS_Titanic_3.jpg)
-
-## Overview
-This project aims to analyze the Titanic passenger dataset to predict survival outcomes using machine learning models. It covers the complete workflow from data cleaning, exploration, feature engineering, to model building and evaluation.
-
-## Dataset
-- **Filename:** `train.csv`  
-- **Source:** [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic)  
-- Contains passenger information including age, sex, class, and survival status.
-
 ## Project Workflow
 
 1. **Data Cleaning**
