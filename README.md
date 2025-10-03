@@ -1,2 +1,53 @@
-# DATA-SCIENCE-PROJECTS
-My portfolio of Data Science projects, including Machine Learning, Data Visualization, and exploratory data analysis. For learning and showcasing skills.
+# Titanic Survival Analysis
+
+![Titanic](https://upload.wikimedia.org/wikipedia/commons/f/fd/RMS_Titanic_3.jpg)
+
+## Overview
+This project aims to analyze the Titanic passenger dataset to predict survival outcomes using machine learning models. It covers the complete workflow from data cleaning, exploration, feature engineering, to model building and evaluation.
+
+## Dataset
+- **Filename:** `train.csv`  
+- **Source:** [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic)  
+- Contains passenger information including age, sex, class, and survival status.
+
+## Project Workflow
+
+1. **Data Cleaning**
+   - Handling missing values for Age, Cabin, and Embarked columns.
+   - Converting relevant columns to appropriate data types.
+
+2. **Outlier Handling**
+   - Winsorization applied on numerical columns to cap extreme values.
+
+3. **Exploratory Data Analysis (EDA)**
+   - Visualizations to understand survival patterns across features like Sex, Age, and Embarked.
+
+4. **Feature Engineering**
+   - Dropping irrelevant columns (`PassengerId`, `Name`, `Ticket`, `Cabin`, `Parch`).
+   - Encoding categorical variables for model input.
+
+5. **Model Building**
+   - Logistic Regression
+   - Decision Tree Classifier
+   - Random Forest Classifier
+   - k-Nearest Neighbors (kNN)
+
+6. **Hyperparameter Tuning**
+   - Grid Search applied on Random Forest for optimal parameters.
+
+## Results
+- Each model was evaluated using:
+  - Accuracy
+  - Classification Report
+  - Confusion Matrix
+- **Best Performance:** Tuned Random Forest provided the highest accuracy among all models.
+
+## How to Run
+1. Place `train.csv` and `titanic_analysis.py` in the same folder.  
+2. Install required Python libraries:
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn
+
+
+Shudhanshu Ranjan
+Data Science Enthusiast | Machine Learning Practitioner
